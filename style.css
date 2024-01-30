@@ -22,6 +22,33 @@ body {
 #carefor .imgbox {
   width: 500px;
 }
+@media screen and (max-width: 400px) {
+  #carefor .textbox h1 {
+    font-weight: 700;
+    font-size: 30px;
+    margin: 0 0 10px;
+  }
+  #carefor .textbox h4 {
+    color: #a8a8a8;
+    font-size: 18px;
+  }
+  #carefor .imgbox {
+    width: 200px;
+  }
+}
+@media screen and (max-width: 991px) {
+  #carefor .textbox h1 {
+    font-size: 40px;
+    margin: 0 0 10px;
+  }
+  #carefor .textbox h4 {
+    color: #a8a8a8;
+    font-size: 20px;
+  }
+  #carefor .imgbox {
+    width: 250px;
+  }
+}
 
 #welcome {
   padding: 40px 0;
